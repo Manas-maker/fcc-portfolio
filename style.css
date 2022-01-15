@@ -6,3 +6,7 @@ body {
 #projects {
     display: grid;
 }
+
+img {
+    width: 80px;
+}
