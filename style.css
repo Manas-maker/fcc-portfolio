@@ -49,7 +49,7 @@ img {
     width: 80px;
 }
 
-div {
+.project-div {
     margin: 24px;
     border: 2px;
     border-color: black;
