@@ -57,4 +57,22 @@ img {
     box-shadow: 2px 2px;
 }
 
+#contact-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    height: 100vh;
+}
 
+#contacts {
+    padding: 27vh 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.contact-div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
