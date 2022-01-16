@@ -23,12 +23,12 @@ ul {
     padding-right: 32px;
 }
 
-#welcome {
+#welcome-section {
     background-color: #F5F5F5;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 47vh 16px;
+    height: 100vh;
     margin-top: 53px;
 }
 
@@ -46,7 +46,7 @@ ul {
 }
 
 
-.project-div {
+.project-tile {
     margin: 24px;
     border: 2px;
     border-color: black;
@@ -63,10 +63,11 @@ ul {
 }
 
 #contacts {
-    padding: 27vh 12px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 48px;
+    justify-content: center;
 }
 .contact-div {
     display: flex;
@@ -74,11 +75,15 @@ ul {
     gap: 8px;
 }
 
-.project-div img {
+.project-tile {
+    width: 411px;
+}
+
+.project-tile img {
     width: 100%;
 }
 
-.project-div a {
+.project-tile a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,4 +92,16 @@ ul {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 1720px) {
+    #projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 900px) {
+    #projects {
+        grid-template-columns: 1fr;
+    }
 }
